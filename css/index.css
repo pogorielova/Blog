@@ -1,0 +1,80 @@
+* {
+  box-sizing: border-box; }
+
+a {
+  text-decoration: none; }
+
+html {
+  font-size: 10px; }
+  html body {
+    font-family: 'Montserrat', sans-serif;
+    font-size: 1.3rem;
+    text-transform: uppercase;
+    background-color: #E2E7EC; }
+    html body .container {
+      width: 1114px;
+      margin: auto;
+      margin-top: 65px; }
+      html body .container .row {
+        display: flex;
+        justify-content: space-between;
+        margin-bottom: 15px; }
+        html body .container .row .new {
+          width: 736px;
+          height: 541px;
+          display: flex;
+          flex-direction: column;
+          justify-content: flex-end;
+          background-image: url("../img/1.png");
+          background-size: cover;
+          overflow: hidden;
+          background-repeat: no-repeat;
+          padding: 30px;
+          transition: all 0.2s; }
+          html body .container .row .new-date {
+            color: white;
+            margin-bottom: 17px; }
+          html body .container .row .new-title {
+            font-size: 2.8rem;
+            color: white;
+            font-weight: bold;
+            width: 433px; }
+          html body .container .row .new:hover {
+            transform: scale(1.02); }
+        html body .container .row .post {
+          width: 360px;
+          height: 540px;
+          background-color: white;
+          position: relative;
+          overflow: hidden;
+          transition: all 0.2s; }
+          html body .container .row .post-img {
+            width: 360px; }
+          html body .container .row .post .content {
+            padding: 20px; }
+            html body .container .row .post .content-date {
+              color: #818181; }
+            html body .container .row .post .content-title {
+              font-size: 2rem;
+              font-weight: bold;
+              color: #1D1D1D;
+              margin-top: 16px; }
+            html body .container .row .post .content .avatar {
+              position: absolute;
+              bottom: 20px;
+              width: 54px;
+              height: 54px; }
+          html body .container .row .post:hover {
+            transform: scale(1.03); }
+  html .downloading {
+    color: #99A5B0;
+    font-weight: bold;
+    width: 200px;
+    margin: auto;
+    margin-top: 65px;
+    margin-bottom: 80px;
+    position: relative; }
+    html .downloading i {
+      position: absolute;
+      top: -50%;
+      left: -20%; }

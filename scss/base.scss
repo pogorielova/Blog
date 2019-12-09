@@ -1,0 +1,116 @@
+* {
+  box-sizing: border-box;
+}
+
+a {
+  text-decoration: none;
+}
+
+html {
+  font-size: 10px;
+
+  body {
+    font-family: 'Montserrat', sans-serif;
+    font-size: 1.3rem;
+    text-transform: uppercase;
+    background-color: #E2E7EC;
+
+    .container {
+      width: 1114px;
+      margin: auto;
+      margin-top: 65px;
+
+
+      .row {
+        display: flex;
+        justify-content: space-between;
+        margin-bottom: 15px;
+
+        .new {
+          width: 736px;
+          height: 541px;
+          display: flex;
+          flex-direction: column;
+          justify-content: flex-end;
+          background-image: url('../img/1.png');
+          background-size: cover;
+          overflow: hidden;
+          background-repeat: no-repeat;
+          padding: 30px;
+          transition: all 0.2s;
+
+          &-date {
+            color: white;
+            margin-bottom: 17px;
+          }
+
+          &-title {
+            font-size: 2.8rem;
+            color: white;
+            font-weight: bold;
+            width: 433px;
+          }
+
+          &:hover {
+            transform: scale(1.02);
+          }
+        }
+
+        .post {
+          width: 360px;
+          height: 540px;
+          background-color: white;
+          position: relative;
+          overflow: hidden;
+          transition: all 0.2s;
+
+          &-img {
+            width: 360px;
+          }
+
+          .content {
+            padding: 20px;
+
+            &-date {
+              color: #818181;
+            }
+
+            &-title {
+              font-size: 2rem;
+              font-weight: bold;
+              color: #1D1D1D;
+              margin-top: 16px;
+            }
+
+            .avatar {
+              position: absolute;
+              bottom: 20px;
+              width: 54px;
+              height: 54px;
+            }
+          }
+
+          &:hover {
+            transform: scale(1.03);
+          }
+        }
+      }
+    }
+  }
+
+  .downloading {
+    color: #99A5B0;
+    font-weight: bold;
+    width: 200px;
+    margin: auto;
+    margin-top: 65px;
+    margin-bottom: 80px;
+    position: relative;
+
+    i {
+      position: absolute;
+      top: -50%;
+      left: -20%;
+    }
+  }
+}
